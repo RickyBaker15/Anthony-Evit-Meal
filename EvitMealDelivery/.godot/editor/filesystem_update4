@@ -1,0 +1,5 @@
+res://Levels/test_level.tscn
+res://Character/player.tscn
+res://Character/Enemies/snail.tscn
+res://menu.tscn
+res://game_over.tscn

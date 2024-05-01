@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cork43uj0nmmy"]
+
+[ext_resource type="Script" path="res://ChangeScene.gd" id="1_fkhf4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pp2l8"]
+size = Vector2(20, 54)
+
+[node name="change" type="Area2D"]
+script = ExtResource("1_fkhf4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_pp2l8")

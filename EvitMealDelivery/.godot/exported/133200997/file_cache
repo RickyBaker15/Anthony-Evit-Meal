@@ -1,0 +1,7 @@
+res://Character/Enemies/snail.tscn::2ca1eb327d4515dd0090a40c6402e1f9::1714062411::res://.godot/exported/133200997/export-99b13e173cbcb1c1b37754983b774a61-snail.scn
+res://Character/player.tscn::ddec0e0175978d12a7b710d3cb8afaf1::1714062411::res://.godot/exported/133200997/export-2af341c60ebd38c5c82bd4d41fcdb710-player.scn
+res://Levels/new_scene.tscn::00da7cc75151a8a6816c3cc02a1ade8e::1714062411::res://.godot/exported/133200997/export-26bdfe428f187ba18c60d5eb8e868ad3-new_scene.scn
+res://Levels/scenechange.tscn::2a979ba7ff84d881fa468d00d529a373::1714062411::res://.godot/exported/133200997/export-3789f62d6f1c5beb6731e7f30aaac43b-scenechange.scn
+res://Levels/test_level.tscn::a274c55aebd00b307814a61f44c6d66b::1714062411::res://.godot/exported/133200997/export-cdfc72a2c7de608a57721ef95d29853e-test_level.scn
+res://UI/health_changed_label.tscn::7b0f3e16802a1790beba9a83dd1c8b12::1713891552::res://.godot/exported/133200997/export-a2a036b9488b4a86d801c3944d44ba9a-health_changed_label.scn
+res://UI/health_changed_manager.tscn::9e0a54a72a5b607fbd829bd4478ec68c::1713889432::res://.godot/exported/133200997/export-5e415a941e5d1c03eb7013722a364ae1-health_changed_manager.scn
