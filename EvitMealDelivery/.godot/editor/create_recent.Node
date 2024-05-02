@@ -1,3 +1,6 @@
+CollisionShape2D
+TileMap
+TextureRect
 CharacterBody2D
 Node2D
 Area2D
@@ -6,9 +9,6 @@ Label
 VBoxContainer
 Timer
 State
-CollisionShape2D
-TextureRect
-TileMap
 CharacterStateMachine
 AnimationTree
 Control

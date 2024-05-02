@@ -3,11 +3,13 @@
 [ext_resource type="Script" path="res://ChangeScene.gd" id="1_fkhf4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pp2l8"]
-size = Vector2(20, 54)
+size = Vector2(61, 54)
 
 [node name="change" type="Area2D"]
+collision_layer = 2
+collision_mask = 2
 script = ExtResource("1_fkhf4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 1)
+position = Vector2(0.5, 1)
 shape = SubResource("RectangleShape2D_pp2l8")

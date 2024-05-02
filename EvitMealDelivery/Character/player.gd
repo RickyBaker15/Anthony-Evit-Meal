@@ -3,6 +3,7 @@ extends CharacterBody2D
 class_name Player
 
 @export var speed : float = 150.0
+@export var health : int = 30
 
 @onready var sprite : Sprite2D = $Sprite2D
 @onready var animation_tree : AnimationTree = $AnimationTree
@@ -47,3 +48,7 @@ func update_facing_direction():
 		sprite.flip_h = true
 		
 	emit_signal("facing_direction_changed", !sprite.flip_h)
+
+func on_death(health):
+	if(health <= 0):
+		get_tree().change_scene_to_file("res://menu.tscn")

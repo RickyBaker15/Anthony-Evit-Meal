@@ -21,9 +21,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -48.0
-offset_top = -50.5
+offset_top = -21.0
 offset_right = 48.0
-offset_bottom = 50.5
+offset_bottom = 50.0
 grow_horizontal = 2
 grow_vertical = 2
 theme = SubResource("Theme_6mrsr")
@@ -32,14 +32,9 @@ theme = SubResource("Theme_6mrsr")
 layout_mode = 2
 text = "Start Game"
 
-[node name="Options" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-text = "Options"
-
 [node name="Exit" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "Exit"
 
 [connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_start_pressed"]
-[connection signal="pressed" from="VBoxContainer/Options" to="." method="_on_options_pressed"]
 [connection signal="pressed" from="VBoxContainer/Exit" to="." method="_on_exit_pressed"]
