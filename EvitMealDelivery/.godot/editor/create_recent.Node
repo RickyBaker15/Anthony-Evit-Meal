@@ -1,9 +1,9 @@
 CollisionShape2D
+CharacterBody2D
 TileMap
 TextureRect
-CharacterBody2D
-Node2D
 Area2D
+Node2D
 Button
 Label
 VBoxContainer
